@@ -17,7 +17,8 @@ def estimate_beats(d,sr,startbpm,tightness):
   # Use "beat tracker" (last argument is 0 for noplot)
 
   bts = 0;
-  
+
+  # TEST  
   #  Get the beat times
   [BeatStrength, downsample, hop_len] = calculate_beat_strength(d,sr);
   
